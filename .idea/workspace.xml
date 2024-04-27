@@ -4,9 +4,39 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6ec6a490-1fa8-4718-bb5a-3bcb8f991ad0" name="Changes" comment="build: initialize project">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    <list default="true" id="6ec6a490-1fa8-4718-bb5a-3bcb8f991ad0" name="Changes" comment="feat: add README.md">
+      <change afterPath="$PROJECT_DIR$/netty-protocol/src/main/java/org/example/rpc/annotation/RemoteReference.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty-protocol/src/main/java/org/example/rpc/annotation/RemoteService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty-protocol/src/main/java/org/example/rpc/spring/reference/RpcClientProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty-protocol/src/main/java/org/example/rpc/spring/reference/RpcReferenceAutoConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty-protocol/src/main/java/org/example/rpc/spring/reference/SpringRpcReferenceBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty-protocol/src/main/java/org/example/rpc/spring/reference/SpringRpcReferencePostProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty-protocol/src/main/java/org/example/rpc/spring/service/BeanMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty-protocol/src/main/java/org/example/rpc/spring/service/Mediator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty-protocol/src/main/java/org/example/rpc/spring/service/RpcProviderAutoConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty-protocol/src/main/java/org/example/rpc/spring/service/RpcServerProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty-protocol/src/main/java/org/example/rpc/spring/service/SpringRpcProviderBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty-rpc-api/src/main/java/org/example/rpc/ISayService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty-rpc-consumer/src/main/java/org/example/rpc/NettyConsumerMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty-rpc-consumer/src/main/java/org/example/rpc/controller/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty-rpc-consumer/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty-rpc-provider/src/main/java/org/example/rpc/service/SayServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty-rpc-provider/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty-rpc-registry/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty-rpc-registry/src/main/java/org/example/rpc/IRegistryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty-protocol/src/main/java/org/example/rpc/handler/RpcServerHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty-protocol/src/main/java/org/example/rpc/handler/RpcServerHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty-protocol/src/main/java/org/example/rpc/protocol/NettyServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty-protocol/src/main/java/org/example/rpc/protocol/NettyServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty-protocol/src/main/java/org/example/rpc/spring/SpringBeanManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty-protocol/src/main/java/org/example/rpc/spring/SpringBeanManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty-rpc-consumer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/netty-rpc-consumer/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty-rpc-consumer/src/main/java/org/example/rpc/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty-rpc-consumer/src/main/java/org/example/rpc/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty-rpc-consumer/src/main/java/org/example/rpc/proxy/RpcClientProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty-rpc-consumer/src/main/java/org/example/rpc/proxy/RpcClientProxy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty-rpc-consumer/src/main/java/org/example/rpc/proxy/RpcInvokerProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty-protocol/src/main/java/org/example/rpc/spring/reference/RpcInvokerProxy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty-rpc-provider/src/main/java/org/example/rpc/NettyRpcProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty-rpc-provider/src/main/java/org/example/rpc/NettyRpcProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty-rpc-provider/src/main/java/org/example/rpc/service/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty-rpc-provider/src/main/java/org/example/rpc/service/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +47,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="AnnotationType" />
         <option value="Class" />
       </list>
     </option>
@@ -24,15 +55,15 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="KubernetesApiProvider"><![CDATA[{
-  "contexts": [
+  <component name="KubernetesApiProvider">{
+  &quot;contexts&quot;: [
     {
-      "name": "minikube",
-      "originalNamespace": "default"
+      &quot;name&quot;: &quot;minikube&quot;,
+      &quot;originalNamespace&quot;: &quot;default&quot;
     }
   ],
-  "isMigrated": true
-}]]></component>
+  &quot;isMigrated&quot;: true
+}</component>
   <component name="KubernetesSettings">
     <option name="contextName" value="minikube" />
   </component>
@@ -67,8 +98,9 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.NettyConsumerMain.executor": "Debug",
     "Spring Boot.NettyRpcProvider.executor": "Run",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "jdk.selected.JAVA_MODULE": "11",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
@@ -77,22 +109,22 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2229885",
     "settings.editor.selected.configurable": "reference.projectsettings.compiler.annotationProcessors",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.example.rpc.controller" />
+      <recent name="org.example.rpc" />
+      <recent name="org.example.rpc.annotation" />
+      <recent name="org.example.rpc.spring.service" />
       <recent name="org.example.rpc.handler" />
-      <recent name="org.example.rpc.protocol" />
-      <recent name="org.example.proxy.impl" />
-      <recent name="org.example.rpc.codec" />
-      <recent name="org.example.rpc.serial" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.App">
+  <component name="RunManager" selected="Spring Boot.NettyConsumerMain">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.rpc.App" />
       <module name="netty-rpc-consumer" />
@@ -112,6 +144,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.example.proxy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NettyConsumerMain" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="netty-rpc-consumer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.example.rpc.NettyConsumerMain" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.rpc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -139,8 +184,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.App" />
+        <item itemvalue="Spring Boot.NettyConsumerMain" />
         <item itemvalue="Spring Boot.NettyRpcProvider" />
+        <item itemvalue="Application.App" />
         <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
@@ -164,7 +210,20 @@
       <workItem from="1714105628546" duration="105000" />
       <workItem from="1714105759604" duration="348000" />
       <workItem from="1714106109823" duration="59000" />
-      <workItem from="1714106197038" duration="7632000" />
+      <workItem from="1714106197038" duration="7852000" />
+      <workItem from="1714125029364" duration="1734000" />
+      <workItem from="1714129207925" duration="2640000" />
+      <workItem from="1714134322752" duration="17000" />
+      <workItem from="1714134363570" duration="1868000" />
+      <workItem from="1714202193430" duration="414000" />
+      <workItem from="1714202630645" duration="1884000" />
+      <workItem from="1714204850564" duration="683000" />
+      <workItem from="1714206364970" duration="687000" />
+      <workItem from="1714208549354" duration="1590000" />
+      <workItem from="1714212408545" duration="1148000" />
+      <workItem from="1714217289883" duration="3667000" />
+      <workItem from="1714223475653" duration="170000" />
+      <workItem from="1714223667256" duration="465000" />
     </task>
     <task id="LOCAL-00001" summary="build: initialize project">
       <option name="closed" value="true" />
@@ -174,7 +233,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714116843141</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="feat: add README.md">
+      <option name="closed" value="true" />
+      <created>1714117343316</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1714117343316</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -183,6 +250,18 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="build: initialize project" />
-    <option name="LAST_COMMIT_MESSAGE" value="build: initialize project" />
+    <MESSAGE value="feat: add README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: add README.md" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/netty-protocol/src/main/java/org/example/rpc/spring/reference/RpcReferenceAutoConfiguration.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

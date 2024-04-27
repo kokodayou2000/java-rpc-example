@@ -2,10 +2,11 @@ package org.example.rpc.service;
 
 import lombok.extern.slf4j.Slf4j;
 import org.example.rpc.IUserService;
+import org.example.rpc.annotation.RemoteService;
 import org.springframework.stereotype.Service;
 
 @Slf4j
-@Service
+@RemoteService
 public class UserServiceImpl implements IUserService {
 
     @Override

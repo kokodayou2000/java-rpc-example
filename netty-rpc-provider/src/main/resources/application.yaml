@@ -1,0 +1,4 @@
+rpc:
+  client:
+    service-address: 127.0.0.1
+    service-port: 10000

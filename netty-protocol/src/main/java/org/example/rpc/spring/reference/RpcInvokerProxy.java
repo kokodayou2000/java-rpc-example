@@ -1,4 +1,4 @@
-package org.example.rpc.proxy;
+package org.example.rpc.spring.reference;
 
 import io.netty.channel.DefaultEventLoop;
 import io.netty.util.concurrent.DefaultEventExecutor;

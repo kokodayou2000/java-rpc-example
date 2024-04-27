@@ -1,7 +1,10 @@
 package org.example.rpc.proxy;
 
+import org.example.rpc.spring.reference.RpcInvokerProxy;
+
 import java.lang.reflect.Proxy;
 
+@Deprecated
 public class RpcClientProxy {
     public <T> T clientProxy(final Class<T> interfaceCls,final String host,int port){
 

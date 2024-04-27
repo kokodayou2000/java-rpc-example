@@ -13,9 +13,9 @@ import org.example.rpc.handler.RpcServerInitializer;
 @Slf4j
 @AllArgsConstructor
 public class NettyServer {
-    private String serverAddress;
+    private String serviceAddress;
 
-    private int serverPort;
+    private int servicePort;
 
     public void startNettyServer(){
         log.info("begin start Netty server");
@@ -28,8 +28,8 @@ public class NettyServer {
                 .channel(NioServerSocketChannel.class)
                 .childHandler(new RpcServerInitializer());
         try {
-            ChannelFuture future = bootstrap.bind(this.serverAddress,this.serverPort).sync();
-            log.info("Server started Success on Port,{}",this.serverPort);
+            ChannelFuture future = bootstrap.bind(this.serviceAddress,this.servicePort).sync();
+            log.info("Server started Success on Port,{}",this.servicePort);
             future.channel().closeFuture().sync();
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
